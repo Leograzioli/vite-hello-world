@@ -1,21 +1,20 @@
 <script>
 import AppJumbo from "./components/AppJumbo.vue";
+import AppTitle from "./components/AppTitle.vue";
 
 export default {
-  data() {
-    return {
-      greeting: "my first vite vue page "
-    }
-  },
+
   components: {
-    AppJumbo
+    AppJumbo,
+    AppTitle
   },
 }
 </script>
 
 <template>
   <AppJumbo />
-  <div> {{ greeting }}</div>
+  <AppTitle />
+
 </template>
 
 <style>
